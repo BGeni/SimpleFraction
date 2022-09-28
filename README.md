@@ -34,11 +34,13 @@ Validez les changements (cf. [Enregistrer des modifications dans le dépôt](htt
     ```bash
     git add * 
     git commit -m "..."
+    git push
     ```
 1. Ajoutez la méthode `toString` à la classe `Fraction` (cf. [`Object.toString`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#toString())) qui retournera la chaîne `"Je suis une fraction."` et modifiez la classe `Main` en conséquence;
 Validez les changements;
     ```Java
-    // Code pour tester toString
+    // Fraction f = new Fraction();
+       System.out.println(f);
     ```
 1. Publiez vos modifications sur le dépôt distant (cf. [Travailler avec des dépôts distants](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants));
 Vous utiliserez le protocole `https` pour cela;
@@ -48,7 +50,7 @@ Vérifiez avec le navigateur;
     ```
 1. Sur la forge, ajoutez un fichier de documentation `README.md`.
 Quelle syntaxe est utilisée pour ce fichier ?
-    > Répondre ici
+    > La syntaxe MarkDown
 1. Récupérez localement les modifications effectuées sur la forge.
     ```bash
     # Répondre ici
