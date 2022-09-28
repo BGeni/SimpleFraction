@@ -53,7 +53,7 @@ Quelle syntaxe est utilisée pour ce fichier ?
     > La syntaxe MarkDown
 1. Récupérez localement les modifications effectuées sur la forge.
     ```bash
-    # Répondre ici
+    # git pull
     ```
 1. Ajoutez les répertoires et fichiers issus de la compilation aux fichiers ignorés par `git` (cf. [`.gitignore` pour Java](https://github.com/github/gitignore/blob/main/Java.gitignore));
     ```bash
